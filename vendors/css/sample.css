@@ -2,6 +2,7 @@ html {
   position: relative;
   min-height: 100%;
   font-size: 62.5%;
+  width: 100%;
 /* QQQQ font-size 10px　 */
 }
 
@@ -63,10 +64,10 @@ header ul:after {
 
 /* 上のfloat left rightに合わせて作成 */
 .clearfix:after {
-    content: "";
-    display: block;
-    clear: both;
-  }
+  content: "";
+  display: block;
+  clear: both;
+}
 
 
 
@@ -83,8 +84,7 @@ header ul:after {
 .main-header img {
    height:20%;
    width: 20%;
-
-
+   padding-top: 150px;
 
 
 }
@@ -94,43 +94,59 @@ header ul:after {
 /* main画像（白い「Achieve」の文字の画像）部分の実装 */
 }
 
+
+
 .about {
  font-size: 1rem;
- padding-top:30px;
- padding-bottom:30px;
+ padding-top:0px;
+ padding-bottom:0px;
 }
+
+
+p{
+  margin-top:10px;
+  margin-bottom: 30px;
+
+}
+
 /* ここから */
 
 /* 下に揃える */
-/* QQQ font-size height 高さ */
 .function {
-  font-size: 1rem;
+  font-size: ;
   padding-top:10px;
   height:400px;
   width: 100%;
   background-color:#CCCCCC;
-  display:table;
-
 }
 
-
-/* QQQ height 高さ */
 .function-images {
-  font-size:15px;
-}
+  width: 1120px;
+  height: 100%;
+  margin: 0 auto;
+   font-size:px;
+   padding-top:px;
 
-/* QQQ 画像を真ん中におきたい */
+  }
+
 .function-image {
   float:left;
-  position:right 100px;
-  padding:20px;
+  padding: 40px 75px;
+  padding:px;
+  width: %;
 
 }
+
+
+
+/* QQQ 画像を真ん中におきたい */
+
 
 .function-image img{
   text-align: center;
-  display: table-cell;
-  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+
 }
 
 
@@ -143,11 +159,11 @@ footer {
 
 /* QQQQ　Functinと同じ色にするには */
     background-color: #202945;
-    height: 100px;
+    height: px;
     width: 100%;
-    display: table;
+    display: ;
     position: absolute;
-    bottom: 0;
+    padding-top:40px;
 
 
   }
@@ -162,15 +178,16 @@ footer {
 
 
 /* QQQQ　２段にするには */
-footer p {
+footer p{
     font-size: 1rem;
     color: #fff;
-    display:table-cell;
+    display:;
     text-align: center;
-    vertical-align: bottom;
-    padding-bottom: 10px;
-  }
+    vertical-align: ;
+    margin-bottom: 10px;
 
+
+  }
 
 
 /* footer部分の実装 */
