@@ -1,0 +1,177 @@
+html {
+  position: relative;
+  min-height: 100%;
+  font-size: 62.5%;
+/* QQQQ font-size 10px　 */
+}
+
+
+body {
+  text-align:center;
+}
+
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+}
+
+/* ここから */
+header {
+  background-color:#323232;
+  width: 100%;
+  height:5rem;
+
+}
+
+header ul {
+  margin: 0;
+  padding:0;
+}
+
+/* QQQQ　font-size */
+header ul a {
+  color:#FFFFFF;
+  text-decoration: none;
+  font-size:1.2rem;
+}
+
+header li {
+  list-style:none;
+}
+
+/* QQQQ　 */
+header ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.left{
+  float:left;
+  padding:1rem;
+}
+
+/* QQQQ　並び順 */
+.right{
+  float:right;
+  padding:1rem;
+
+}
+
+/* 上のfloat left rightに合わせて作成 */
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+
+
+/* ここまでがheader部分の実装 */
+.main-header{
+ height:250px;
+ width:100%;
+
+
+
+}
+
+/* QQQQ　中央にそろえる text-align */
+.main-header img {
+   height:20%;
+   width: 20%;
+
+
+
+
+}
+
+
+
+/* main画像（白い「Achieve」の文字の画像）部分の実装 */
+}
+
+.about {
+ font-size: 1rem;
+ padding-top:30px;
+ padding-bottom:30px;
+}
+/* ここから */
+
+/* 下に揃える */
+/* QQQ font-size height 高さ */
+.function {
+  font-size: 1rem;
+  padding-top:10px;
+  height:400px;
+  width: 100%;
+  background-color:#CCCCCC;
+  display:table;
+
+}
+
+
+/* QQQ height 高さ */
+.function-images {
+  font-size:15px;
+}
+
+/* QQQ 画像を真ん中におきたい */
+.function-image {
+  float:left;
+  position:right 100px;
+  padding:20px;
+
+}
+
+.function-image img{
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+
+/* ここまでがfunction部分の実装 */
+
+
+/* 下に揃えるため wrapperを作った */
+footer {
+
+/* QQQQ　Functinと同じ色にするには */
+    background-color: #202945;
+    height: 100px;
+    width: 100%;
+    display: table;
+    position: absolute;
+    bottom: 0;
+
+
+  }
+
+.wrapper{
+    width: 100%;
+    position:relative;
+    min-height: 100%;
+
+}
+
+
+
+/* QQQQ　２段にするには */
+footer p {
+    font-size: 1rem;
+    color: #fff;
+    display:table-cell;
+    text-align: center;
+    vertical-align: bottom;
+    padding-bottom: 10px;
+  }
+
+
+
+/* footer部分の実装 */
+/* ここに書かれているcssの記述はあくまでヒントとして用意された雛形なので、書かれている記述に従わずに実装したいという場合は、自分の好きに実装して構わない。課題要件を満たし、コードの品質が一定の水準にあると判定されればどのような実装でも合格になる。 */
