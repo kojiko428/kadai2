@@ -82,8 +82,8 @@ header ul:after {
 
 /* QQQQ　中央にそろえる text-align */
 .main-header img {
-   height:20%;
-   width: 20%;
+   height:35%;
+   width: 25%;
    padding-top: 150px;
 
 
@@ -118,12 +118,21 @@ p{
   height:400px;
   width: 100%;
   background-color:#CCCCCC;
+
 }
 
 .function-images {
-  width: 1120px;
-  height: 100%;
-  margin: 0 auto;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: stretch;
+  align-items: stretch;
+  text-align: center;
+  height: 150px;
+  padding: 10px;
+  margin: 20px;
+
    font-size:px;
    padding-top:px;
 
